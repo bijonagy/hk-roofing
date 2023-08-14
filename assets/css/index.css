@@ -11257,7 +11257,7 @@ a.mapboxgl-ctrl-logo.mapboxgl-compact {
 }
 
 .listing-wrapper.pro .banner-wrapper h1 {
-    font-size: 80px;
+    font-size: 52px;
     color: #fff;
     margin-bottom: 30px;
     text-transform: uppercase;
@@ -13038,7 +13038,7 @@ a.mapboxgl-ctrl-logo.mapboxgl-compact {
 
 @media (max-width: 750px) {
     .listing-wrapper.pro .banner-wrapper h1 {
-        font-size: 60px;
+        font-size: 54px;
     }
 
     .listing-wrapper.pro .banner-wrapper .banner-description {
@@ -19323,8 +19323,14 @@ h6 {
     font-size: 3rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 880px) {
     .banner-wrapper #countdown {
         justify-content: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .banner-wrapper #countdown {
+        font-size: 12px;
     }
 }
