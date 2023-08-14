@@ -19080,15 +19080,15 @@ h6 {
     height: 100%;
 }
 
-.slick-slide {
+.carousel .slick-slide {
     padding: 0 10px;
 }
 
-.slick-slide div {
+.carousel .slick-slide div {
     overflow: hidden;
 }
 
-.slick-slide img {
+.carousel .slick-slide img {
     width: 100%;
     -o-object-fit: cover;
     object-fit: cover;
@@ -19100,7 +19100,7 @@ h6 {
     cursor: pointer;
 }
 
-.slick-slide:hover img {
+.carousel .slick-slide:hover img {
     transform: scale(1.2);
 }
 
@@ -19224,4 +19224,79 @@ h6 {
     .evidence-notification {
         max-width: 300px !important;
     }
+}
+
+.testimonial-items {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.testimonial-item {
+    position: relative;
+    display: block;
+    border: 1px solid #7f7974;
+    border-radius: 10px;
+    background-color: white;
+    padding: 50px 50px 45px;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    margin: 0 10px;
+}
+
+.testimonial-item__client-info {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.testimonial-item__client-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+}
+
+.testimonial-item__client-name {
+    font-size: 20px;
+}
+
+.testimonial-item__client-subtitle {
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.testimonial-item__text {
+    font-size: 16px;
+    padding-top: 20px;
+    color: #817e87;
+    text-align: left;
+}
+
+.testimonial-control {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.testimonial-control .prev-button,
+.testimonial-control .next-button {
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+    color: transparent;
+    width: 32px;
+    height: 100px;
+}
+
+.testimonial-control .prev-button {
+    background-image: url(../images/slider-prev-arrow-button.webp);
+}
+
+.testimonial-control .next-button {
+    background-image: url(../images/slider-next-arrow-button.webp);
 }
